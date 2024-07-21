@@ -59,7 +59,7 @@ def show_all(contacts):
         return 'You dont have any contacts'
 
     for key, value in contacts.items():
-        result.append(f'{key} {value}')
+        result.append(f'{key}: {value}')
     return '\n'.join(result)
 
 def main():
